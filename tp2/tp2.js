@@ -18,7 +18,7 @@ if(document.getElementById("Date").value.length<5)
 {
         document.getElementById("error").innerHTML = "La saisie de votre date de naissance est obligatoire" ;
     return false
-
+ 
 }
 
 const dateNaissance = new Date(document.getElementById("Date").value);
