@@ -1,0 +1,50 @@
+<<<<<<< HEAD
+
+body {
+  margin: auto;
+  width: 520px;
+  padding: 1em;
+  border: 1px solid rgb;
+  border-radius: 2em;
+  
+}
+
+form {
+  margin: auto;
+  width: 520px;
+  padding: 1em;
+  border: 1px solid rgb;
+  border-radius: 2em;
+  background-color: rgb(174, 175, 126);
+}
+
+label {
+  width: 100px;
+  display: inline-block;
+  color: black;
+=======
+
+body {
+  margin: auto;
+  width: 520px;
+  padding: 1em;
+  border: 1px solid rgb;
+  border-radius: 2em;
+  
+}
+
+form {
+  margin: auto;
+  width: 520px;
+  padding: 1em;
+  border: 1px solid rgb;
+  border-radius: 2em;
+  background-color: rgb(174, 175, 126);
+}
+
+label {
+  width: 100px;
+  display: inline-block;
+  color: black;
+>>>>>>> 3ac4d616e7a67ca178031097f2877a7de3e57939
+}
