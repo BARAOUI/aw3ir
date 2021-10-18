@@ -21,44 +21,33 @@
           }
         </style>
     </head>
+    <body>        
+      <h1>Saisie d'une fiche "Personne"</h1>
+      <form action="" method="get">
 
-  <body>
-    <h1>Saisie d'une fiche "Personne"</h1>
-    <form action="/ma-page-de-traitement" method="post">
-      <div>
-        <label for="nom"> Nom :</label>
-        <input type="text" id="name" name="user_name"  />
-      </div>
-    <p>
-
-      <div>
-        <label for="prénom">Prénom:</label>
-        <input type="text" id="prénom" name="prénom"  />
-    </div>
-    </p>
-
-      <p>
-
-      <div>
-        <label for="datedenaissance">Date de naissance:</label>
-        <input name="Date" id="Date" placeholder="JJ/MM/AAAA" type="date" minlength="5" maxlength="50"  /></td>
-    </div>
-    </p>
-
-    <p>
-
-      <div>
-        <label for="adresse">Adresse:</label>
-        <input type="text" id="adresse" name="adresse"  />
-      </div>
-    </p>
-
-    <p>
-      <div>
-        <label for="mail">Mail:</label>
-        <input type="text" id="mail" name="mail"  />
-      </div>
-    </p>
+        <table>
+        <tr>
+         <td> <label for="Nom" class="left">Nom :</label> 
+         <td><input name="Nom" id="Nom" type="text" minlength="5" maxlength="20" /></td>
+        </tr>
+        <tr> 
+        <td> <label for="Prenom" class="left">Prenom :</label> 
+        <td> <input name="Prenom" id="Prenom" type="text" minlength="5" maxlength="20" /></td>
+        </tr>
+        <tr>
+          <td> <label for="Date" class="Date">Date De Naissance :</label> 
+         <td> <input name="Date" id="Date" placeholder="JJ/MM/AAAA" type="date" minlength="5" maxlength="50"  /></td>
+        </tr>
+        <tr>
+          <td> <label for="Adresse" class="Adresse">adresse :</label> 
+            <td> <input name="Adresse" id="Adresse" type="text" minlength="5" maxlength="50" /></td>
+        </tr>
+        <tr>
+          <td> <label for="Mail" class="Mail">Mail :</label> 
+            <td> <input name="Mail" id="Mail" type="email" minlength="5" maxlength="30" /></td>
+        </tr>
+          
+          </table>
 
       <p>
         <input type="button" value="Valider" onclick="validation()">
