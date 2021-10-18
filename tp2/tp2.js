@@ -1,4 +1,3 @@
-
 function validation()
 {
  document.getElementById("error").innerHTML= "";
@@ -49,4 +48,3 @@ const dateNaissance = new Date(document.getElementById("Date").value);
     }
 
 }
-
