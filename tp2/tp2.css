@@ -5,7 +5,7 @@ body {
   padding: 1em;
   border: 1px solid rgb;
   border-radius: 2em;
-  color: rgba(140, 0, 255, 0.616);
+  
 }
 
 form {
@@ -14,7 +14,7 @@ form {
   padding: 1em;
   border: 1px solid rgb;
   border-radius: 2em;
-  background-color: indianred;
+  background-color: rgb(174, 175, 126);
 }
 
 label {
